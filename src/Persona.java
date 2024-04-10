@@ -41,4 +41,11 @@ public class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
+    
+    public void datosPersona() {
+     System.out.println("Nombre: " + nombre);
+     System.out.println("Apellidos: " + apellidos);
+     System.out.println("Edad: " + edad);
+     
+    }
 }
